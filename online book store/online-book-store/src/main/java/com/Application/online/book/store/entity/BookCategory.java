@@ -32,6 +32,4 @@ public class BookCategory {
 	@OneToMany(cascade = CascadeType.ALL, mappedBy = "category")
 	private Set<Book> book;
 
-	@Column(name="category_address")
-	private String categoryAddress;
 }
